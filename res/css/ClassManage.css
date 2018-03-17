@@ -1,0 +1,49 @@
+.containerClass{
+	min-width: 670px;
+}
+.main{
+	display: flex; 	
+	justify-content: space-between;
+}
+
+.left input{
+	width: 230px;
+	height: 42px;
+	border-radius: 5px;
+	outline: none;
+	border:1px solid #CDCDCD;
+}
+
+.right button{
+	width: 106px;
+	height: 42px;
+	color: #FFF;
+	background-image: url("../img/classmanage/blue button.png");
+	border: none;
+}
+
+table{
+	border: 1px solid #BBE0FB;
+	width: 100%;
+	margin-top: 20px;
+	background-color: #F7FBFE;
+}
+
+table td{
+	text-align: center;
+	height: 50px;
+	border: 1px solid #BBE0FB;
+}
+
+td button{
+	width: 90px;
+	height: 36px;
+	color: #FFF;
+	background-image: url("../img/classmanage/green button.png");
+	background-size: 100% 100%;
+	border: none;
+	box-sizing: border-box;
+}
+.btnClass{
+	width:200px;
+}

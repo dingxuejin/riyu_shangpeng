@@ -1,0 +1,59 @@
+#rongqi{
+    height: 1080px;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+#rongqi .rongqiLeft{
+    min-width: 210px;
+    width:210px;
+    height: 1020px;
+    border: 1px solid #C1E1F9;
+    border-radius: 8px;
+    position: relative;
+}
+#rongqi .rongqiRight{
+    height: 1020px;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.bolang1, .bolang2{
+    border-radius: 16px;
+    height: 8px;
+    position: absolute;
+    bottom:5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-bottom: 1px solid #C1E1F9;
+}
+.daohang{
+    font-size: 14px;
+    padding:10px 0;
+    height: 50px;
+    min-width: 400px;
+}
+.chaxun1{
+    padding:6px 20px;
+    color:#3C87EE;
+    font-weight: 600;
+    border-bottom:1px solid #E6E6E6;
+}
+.chaxun2{
+    font-size: 20px;
+}
+.chaxun3{
+    font-size: 16px;
+    
+}
+.classContent{
+   
+    border: 1px solid #C1E1F9;
+    border-radius: 8px;
+    position: relative;
+    height: 970px;
+}
+.inputTable{
+    padding:10px 20px;
+    height: 900px;
+}
