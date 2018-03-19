@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>班级管理</title>
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
+	<script src="../../js/jquery-3.2.1.js"></script>
+	<script src="../../js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/classmanage.css">
+	<link rel="stylesheet" type="text/css" href="../../css/public_css.css">
+	<link rel="stylesheet" type="text/css" href="../../css/checkbox.css">
+</head>
+<body>
+	<div class="containercm">
+		<div class="maincm">
+			<div class="left">
+				<span>班级名称:</span>
+				<input type="text" name="search" placeholder=" 支持模糊查询">
+			</div>
+			<div class="right">
+				<button>查询</button>
+				<button>新增</button>
+				<button>删除</button>
+			</div>
+		</div>
+			
+		<table>
+			<tr>
+				<td style="width: 10%"></td>
+				<td style="width: 22%">编号</td>
+				<td style="width: 22%">班级名称</td>
+				<td style="width: 22%">备注</td>
+				<td>操作</td>
+			</tr>
+			<tbody>
+				<tr>
+					<td>
+						<div id="checkbox">
+        					<img src="../../img/checkbox/checkbox.png" alt="">
+       						<input data-myclick='checkbox' type="checkbox">
+    					</div>
+					</td>
+					<td>1</td>
+					<td>class01</td>
+					<td>2017级商务日语一班</td>
+					<td>
+						<button>修改</button>
+						<button>查看</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div id="checkbox">
+        					<img src="../../img/checkbox/checkbox.png" alt="">
+       						<input data-myclick='checkbox' type="checkbox">
+    					</div>
+					</td>
+					<td>2</td>
+					<td>class02</td>
+					<td>2017级商务日语一班</td>
+					<td>
+						<button>修改</button>
+						<button>查看</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+<script src="../../js/checkbox.js"></script>
+</html>
