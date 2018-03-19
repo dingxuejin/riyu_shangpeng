@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     padding:10px;
+    background-image: url(../img/rongqi/bg.png);
+    background-size: 100% 100%;
 }
 #rongqi .rongqiLeft{
     min-width: 210px;
@@ -11,6 +13,7 @@
     border: 1px solid #C1E1F9;
     border-radius: 8px;
     position: relative;
+    background: #fff;
 }
 #rongqi .rongqiRight{
     height: 1020px;
@@ -35,13 +38,24 @@
 }
 
 .classContent{
-   
     border: 1px solid #C1E1F9;
     border-radius: 8px;
     position: relative;
     height: 970px;
+    background: #fff;
+}
+.classTabContent{
+    border: 1px solid #C1E1F9;
+    border-radius: 8px;
+    position: relative;
+    height: 920px;
+    background: #fff;
 }
 .inputTable{
     padding:10px 20px;
     height: 900px;
+}
+.inputTabTable{
+    padding:10px 20px;
+    height: 840px;
 }

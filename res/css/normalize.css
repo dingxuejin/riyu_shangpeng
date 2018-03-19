@@ -85,6 +85,17 @@ table tbody tr:hover {
 background: #d4edfc;
 }
 
+
+
+    input{
+      padding:0 10px;
+      outline: none;
+    }
+    input::-webkit-input-placeholder{color:#ddd;}    /* 使用webkit内核的浏览器 */
+		input:-moz-placeholder{color:#ddd;}                  /* Firefox版本4-18 */
+		input::-moz-placeholder{color:#ddd;}                  /* Firefox版本19+ */
+		input:-ms-input-placeholder{color:#ddd;}           /* IE浏览器 */
+
 /* 结束 */
  html {
     line-height: 1.15; /* 1 */

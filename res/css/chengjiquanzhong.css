@@ -1,0 +1,13 @@
+.tabCj>div{
+    padding:15px 20px;
+    border:1px solid #B1DCFA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #E7F4FD;
+    color:#206ADF;
+    position: relative;
+    top:1px;
+}
+.isTabCj{
+    border-top-left-radius: 0px;
+}
