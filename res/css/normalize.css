@@ -63,16 +63,15 @@ td,
 th {
 border: 1px solid #d4edfc;
 border-collapse: collapse;
+height: 50px;
 }
 table {
 width: 100%;
 }
 td{
-  padding:6px 20px;
   font-size: 12px;
 }
 th {
-padding:10px 20px;
 font-size: 12px;
 }
 thead,
@@ -153,6 +152,7 @@ background: #d4edfc;
   a {
     background-color: transparent;
     text-decoration: none;
+    color:#000;
   }
   
   /**
