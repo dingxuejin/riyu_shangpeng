@@ -1,7 +1,7 @@
 .containerClass{
 	min-width: 670px;
 }
-.main{
+.maincm{
 	display: flex; 	
 	justify-content: space-between;
 }

@@ -29,23 +29,11 @@
 }
 .daohang{
     font-size: 14px;
-    padding:10px 0;
     height: 50px;
+    line-height: 50px;
     min-width: 400px;
 }
-.chaxun1{
-    padding:6px 20px;
-    color:#3C87EE;
-    font-weight: 600;
-    border-bottom:1px solid #E6E6E6;
-}
-.chaxun2{
-    font-size: 20px;
-}
-.chaxun3{
-    font-size: 16px;
-    
-}
+
 .classContent{
    
     border: 1px solid #C1E1F9;

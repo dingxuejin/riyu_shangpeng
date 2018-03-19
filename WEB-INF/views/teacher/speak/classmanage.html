@@ -1,70 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>班级管理</title>
-	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
-	<script src="../../js/jquery-3.2.1.js"></script>
-	<script src="../../js/bootstrap.js"></script>
-	<link rel="stylesheet" type="text/css" href="./css/classmanage.css">
-	<link rel="stylesheet" type="text/css" href="../../css/public_css.css">
-	<link rel="stylesheet" type="text/css" href="../../css/checkbox.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../../res/css/normalize.css">
+    <link rel="stylesheet" href="../../../../res/css/teacher_main1.css">
+    <link rel="stylesheet" href="../../../../res/css/classmanage.css">
+    <link rel="stylesheet" href="../../../../res/css/checkbox.css">
+    <script src="../../../../res/js/jquery-3.2.1.js"></script>
+
 </head>
+
 <body>
-	<div class="containercm">
-		<div class="maincm">
-			<div class="left">
-				<span>班级名称:</span>
-				<input type="text" name="search" placeholder=" 支持模糊查询">
-			</div>
-			<div class="right">
-				<button>查询</button>
-				<button>新增</button>
-				<button>删除</button>
-			</div>
-		</div>
-			
-		<table>
-			<tr>
-				<td style="width: 10%"></td>
-				<td style="width: 22%">编号</td>
-				<td style="width: 22%">班级名称</td>
-				<td style="width: 22%">备注</td>
-				<td>操作</td>
-			</tr>
-			<tbody>
-				<tr>
-					<td>
-						<div id="checkbox">
-        					<img src="../../img/checkbox/checkbox.png" alt="">
-       						<input data-myclick='checkbox' type="checkbox">
-    					</div>
-					</td>
-					<td>1</td>
-					<td>class01</td>
-					<td>2017级商务日语一班</td>
-					<td>
-						<button>修改</button>
-						<button>查看</button>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div id="checkbox">
-        					<img src="../../img/checkbox/checkbox.png" alt="">
-       						<input data-myclick='checkbox' type="checkbox">
-    					</div>
-					</td>
-					<td>2</td>
-					<td>class02</td>
-					<td>2017级商务日语一班</td>
-					<td>
-						<button>修改</button>
-						<button>查看</button>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+    <!-- 头部 -->
+    <iframe src="../teacher_head.html" frameborder="0" width="100%" height="94px" scrolling='no'></iframe>
+    <!-- ///// -->
+    <div id="rongqi">
+        <div class="rongqiLeft">
+            <!-- 放置导航 -->
+            <iframe src="../teacher_nav.html" frameborder="0" width="100%" height="1000px" scrolling='no'></iframe>
+            <!--/////////- -->
+            <div class="bolang1">
+                <div class="bolang2">
+                </div>
+            </div>
+        </div>
+        <div class="rongqiRight">
+            <!-- 放置右边部分 -->
+            <div class="daohang">
+                <a href="">首页</a>
+                <span>>></span>
+                <a href="">口语平台</a>
+                <span>>></span>
+                <a href="">练考赛进度与成绩</a>
+                <span>>></span>
+                <a href="">练考赛成绩查询</a>
+            </div>
+            <div class="classContent">
+                <iframe src="../teacher_chaxun.html" frameborder="0" width="100%" height="36px" scrolling='no'></iframe>
+                <div class="inputTable">
+                    <div class="containerClass">
+                        <div class="maincm">
+                            <div class="left">
+                                <span>班级名称:</span>
+                                <input type="text" name="search" placeholder=" 支持模糊查询">
+                            </div>
+                            <div class="right">
+                                <button>查询</button>
+                                <button>新增</button>
+                                <button>删除</button>
+                            </div>
+                        </div>
+
+                        <table>
+                            <tr>
+                                <td style="width: 10%"></td>
+                                <td style="width: 22%">编号</td>
+                                <td style="width: 22%">班级名称</td>
+                                <td style="width: 22%">备注</td>
+                                <td>操作</td>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div id="checkbox">
+                                            <img src="../../../../res/img/checkbox/checkbox.png" alt="">
+                                            <input data-myclick='checkbox' type="checkbox">
+                                        </div>
+                                    </td>
+                                    <td>1</td>
+                                    <td>class01</td>
+                                    <td>2017级商务日语一班</td>
+                                    <td>
+                                        <button>修改</button>
+                                        <button>查看</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="checkbox">
+                                            <img src="../../../../res/img/checkbox/checkbox.png" alt="">
+                                            <input data-myclick='checkbox' type="checkbox">
+                                        </div>
+                                    </td>
+                                    <td>2</td>
+                                    <td>class02</td>
+                                    <td>2017级商务日语一班</td>
+                                    <td>
+                                        <button>修改</button>
+                                        <button>查看</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- /////////// -->
+                <div class="bolang1">
+                    <div class="bolang2">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="../../../../res/js/checkbox.js"></script>
 </body>
-<script src="../../js/checkbox.js"></script>
+
 </html>

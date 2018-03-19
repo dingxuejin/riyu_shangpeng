@@ -17,6 +17,8 @@
 	color: #FFF;
 	background-image: url("../img/classmanage/blue button.png");
 	border: none;
+	margin: 0 4px;
+	border-radius: 5px;
 }
 
 table{
