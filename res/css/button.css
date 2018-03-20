@@ -1,0 +1,12 @@
+.btn-lanse>button{
+    background-image: url(../img/button/bluebutton.png);
+    background-size: 100% 100%;
+    color:#fff;
+    border-radius: 8px;
+  }
+  .btn-lvse>button{
+    background-image: url(../img/button/lvbutton.png);
+    background-size: 100% 100%;
+    color:#fff;
+    border-radius: 8px;
+  }

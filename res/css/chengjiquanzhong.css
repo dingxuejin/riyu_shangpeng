@@ -11,3 +11,57 @@
 .isTabCj{
     border-top-left-radius: 0px;
 }
+.btnCj{
+    white-space: nowrap;
+}
+.btnCj button{
+    font-size: 14px;
+    color:#fff;
+    width:120px;
+    height: 42px;
+}
+.tableDiv{
+    margin: 10px auto 0;
+}
+.selectCj1{
+    width:120px;
+    height: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    border:1px solid #C6C6C6;
+    border-radius: 5px;
+   
+}
+.selectCj2{
+    width:80px;
+    height: 25px;
+    display: inline-block;
+    border:1px solid #C6C6C6;
+    margin: 4px;
+}
+table{
+    width:100%;
+}
+table,td{
+    border: 2px solid #d4edfc;
+    border-collapse: collapse;
+    min-width: 150px;
+    text-align: center;
+  height: 35px;
+    font-size: 14px;
+}
+.chaxunCj{
+   white-space: nowrap;
+}
+.chaxunCj>div{
+    margin-right: 10px;
+}
+.chaxunCj span{
+font-size: 14px;
+}
+.chaxunCj input{
+    height: 38px;
+    width:200px;
+    border-radius: 8px;
+    border:1px solid #C6C6C6;
+}

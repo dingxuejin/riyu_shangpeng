@@ -55,38 +55,6 @@ a:hover{
 text-decoration: none;
 }
 
-.table{
-  padding:0 20px;
-}
-table,
-td,
-th {
-border: 1px solid #d4edfc;
-border-collapse: collapse;
-height: 50px;
-}
-table {
-width: 100%;
-}
-td{
-  font-size: 12px;
-}
-th {
-font-size: 12px;
-}
-thead,
-tr {
-background: #f6fbfe;
-}
-tbody > tr:nth-child(2n + 1) {
-background: #fff;
-}
-table tbody tr:hover {
-background: #d4edfc;
-}
-
-
-
     input{
       padding:0 10px;
       outline: none;
