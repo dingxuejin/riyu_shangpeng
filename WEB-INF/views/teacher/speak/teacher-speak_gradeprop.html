@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="../../../../res/css/normalize.css">
     <link rel="stylesheet" href="../../../../res/css/teacher_main1.css">
     <link rel="stylesheet" href="../../../../res/css/chengjiquanzhong.css">
+    <link rel="stylesheet" href="../../../../res/css/table.css">
     <link rel="stylesheet" href="../../../../res/css/select.css">
     <link rel="stylesheet" href="../../../../res/css/button.css">
+    <link rel="stylesheet" href="../../../../res/css/radio.css">
 
     <script src="../../../../res/js/jquery-3.2.1.js"></script>
 
@@ -66,7 +68,7 @@
             </div>
             <div class="classTabContent isTabCj">
                 <iframe src="../teacher_chaxun.html" frameborder="0" width="100%" height="40px" scrolling='no'></iframe>
-                <!-- 能力测评 -->
+                <!-- 能力测评设置 -->
                 <div class="inputTabTable">
 
 
@@ -88,31 +90,101 @@
                                 </div>
                             </div>
                             <div>
-                                <span>学生姓名:</span>
-                                <input type="text" placeholder="支持姓名查询">
+                                <span>试卷名称：</span>
+                                <div class="selectCj3">
+                                    <div class="selectDiv">
+                                        <div class=" inline-flex-start inputDiv">
+                                            <input type="text" placeholder="请选择" readonly="readonly">
+                                            <img src="../../../../res/img/select/select.png" alt="">
+                                        </div>
+                                        <ul>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
                             </div>
-                            <div>
-                                <span>学生学号:</span>
-                                <input type="text"  placeholder="支持学号查询">
-                            </div>
+
 
                         </div>
                         <div class="btn-lanse btnCj">
                             <button>查询</button>
-                            <button>导出EXCEL</button>
-                            
                         </div>
                     </div>
-                    <div class="tableDiv">
-                      
+                    <div class="tableDiv3">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>编号</th>
+                                    <th>试卷名称</th>
+                                    <th colspan="2">状态</th>
+                                    <th>开始时间</th>
+                                    <th>结束时间</th>
+                                    <th colspan="2">答案设置</th>
+                                    <th colspan="2">操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>能力测评试卷一</td>
+                                    <td>
+                                        <div class="flex-center">
+                                            <div class="radioBox radioBoxActive">
+                                                <input type="radio" name="1" checked="checked">
+                                            </div>
 
-                       
+                                            <span>开放</span>
+                                        </div>
+
+                                    </td>
+                                    <td>
+                                        <div class="flex-center">
+                                            <div class="radioBox">
+                                                <input type="radio" name="1">
+                                            </div>
+
+                                            <span>关闭</span>
+                                        </div>
+
+                                    </td>
+                                    <td>2017-12-07 14:06</td>
+                                    <td>2017-12-07 14:06</td>
+                                    <td>
+                                        <div class="flex-center">
+                                            <div class="radioBox radioBoxActive">
+                                                <input type="radio" name="2" checked="checked">
+                                            </div>
+                                            <span>开放</span>
+                                        </div>
+
+                                    </td>
+                                    <td>
+                                        <div class="flex-center">
+                                            <div class="radioBox radioBoxActive">
+                                                <input type="radio" name="2">
+                                            </div>
+                                            <span>关闭</span>
+                                        </div>
+
+                                    </td>
+                                    <td class="btn-lvse btnNlSz">
+                                        <button data-prop='kaosi'>开启考试</button>
+                                    </td>
+                                    <td class="btn-lvse btnNlSz">
+                                        <button data-prop='reset'>清空作答</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
                     </div>
 
 
 
                 </div>
-                <!-- 能力测评end -->
+                <!-- 能力测评设置end -->
 
                 <!-- 能力权重 -->
                 <div class="inputTabTable" style="display:none;">
@@ -509,8 +581,105 @@
 
         </div>
     </div>
+    <div id="testStart">
+            <div class='tanchu1'>
+                <div class="flex-between tanchu2">
+                    <div>
+                        信息确认
+                    </div>
+                    <div class="tanchu3" data-start="quxiao">
+                        <img src="../../../../res/img/head/close.png" alt="">
+                    </div>
+                </div>
+                <div class="tanchu4 flex-center">
+                    <div>
+                        <div class="tanchu5">
+                            <img src="../../../../res/img/tanchu/tishi.png" alt="">
+                        </div>
+                        <div>
+                            <span class="tanchu6">
+                                确定要开启本场考试吗？
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-center tanchu8">
+                    <div class="btn-lanse tanchu7">
+                        <button>确定</button>
+                    </div>
+                    <div class="btn-hunse tanchu7">
+                        <button data-start="quxiao">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>>
+    <!-- <div id="testEnd">
+        <div class='tanchu1'>
+            <div class="flex-between tanchu2">
+                <div>
+                    信息确认
+                </div>
+                <div class="tanchu3" data-end="quxiao">
+                    <img src="../../../../res/img/head/close.png" alt="">
+                </div>
+            </div>
+            <div class="tanchu4 flex-center">
+                <div>
+                    <div class="tanchu5">
+                        <img src="../../../../res/img/tanchu/tishi.png" alt="">
+                    </div>
+                    <div>
+                        <span class="tanchu6">
+                            确定要结束本场考试吗？
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-center tanchu8">
+                <div class="btn-lanse tanchu7">
+                    <button>确定</button>
+                </div>
+                <div class="btn-hunse tanchu7">
+                    <button data-end="quxiao">取消</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div id="testReset">
+        <div class='tanchu1'>
+            <div class="flex-between tanchu2">
+                <div>
+                    信息确认
+                </div>
+                <div class="tanchu3" data-reset="quxiao">
+                    <img src="../../../../res/img/head/close.png" alt="">
+                </div>
+            </div>
+            <div class="tanchu4 flex-center">
+                <div>
+                    <div class="tanchu5">
+                        <img src="../../../../res/img/tanchu/tishi.png" alt="">
+                    </div>
+                    <div>
+                        <span class="tanchu6">
+                            确定要清空该场考试练习的学生作答记录吗？
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-center tanchu8">
+                <div class="btn-lanse tanchu7">
+                    <button data-reset="queding">确定</button>
+                </div>
+                <div class="btn-hunse tanchu7">
+                    <button data-reset="quxiao">取消</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
     <script src="../../../../res/js/teacher_speak_gradeprop.js"></script>
     <script src="../../../../res/js/select.js"></script>
+    <script src="../../../../res/js/radio.js"></script>
 
 </body>
 

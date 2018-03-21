@@ -39,6 +39,15 @@
     border:1px solid #C6C6C6;
     margin: 4px;
 }
+.selectCj3{
+    width:180px;
+    height: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    border:1px solid #C6C6C6;
+    border-radius: 5px;
+   
+}
 table{
     width:100%;
 }
@@ -64,4 +73,74 @@ font-size: 14px;
     width:200px;
     border-radius: 8px;
     border:1px solid #C6C6C6;
+}
+.tableDiv3{
+    margin-top:10px;
+}
+.tableDiv3 thead td{
+    font-weight: 600;
+}
+.tableDiv3 td{
+    min-width: 100px;
+}
+.btnNlSz button{
+    width:90px;
+    height: 35px;
+}
+#testStart{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.tanchu1{
+    width:660px;
+    height: 350px;
+    margin: 100px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+}
+.tanchu2{
+    height: 50px;
+    background-image: url(../img/head/bgimg.png);
+    background-size: 100% 100%;
+    color:#fff;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding:20px;
+}
+.tanchu3{
+    width:30px;
+    height: 30px;
+}
+.tanchu3>img{
+    width:100%;
+    height: 100%;
+}
+.tanchu4{
+    height: 200px;
+    border-bottom:1px solid #EBEBEB;
+}
+.tanchu5{
+    padding:10px;
+}
+.tanchu5>img{
+    width:60px;
+    height:60px;
+}
+.tanchu6{
+    font-size: 14px;
+    
+}
+.tanchu7 button{
+    width:105px;
+    height: 40px;
+    margin: 5px;
+}
+.tanchu8{
+    margin-top:20px;
 }

@@ -1,0 +1,14 @@
+.radioBox{
+    width:15px;
+    height: 15px;
+    background-image: url(../img/radio/radioclose.png);
+    background-size: 100% 100%;
+}
+.radioBox>input{
+    width:100%;
+    height: 100%;
+    opacity: 0;
+}
+.radioBoxActive{
+   background-image: url(../img/radio/radioon.png);
+}

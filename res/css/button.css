@@ -1,12 +1,30 @@
+.btn-lanse>button,.btn-lvse>button,.btn-hongse>button,  .btn-hunse>button{
+  background-size: 100% 100%;
+  color:#fff;
+  border-radius: 8px;
+}
+
 .btn-lanse>button{
     background-image: url(../img/button/bluebutton.png);
-    background-size: 100% 100%;
-    color:#fff;
-    border-radius: 8px;
   }
   .btn-lvse>button{
-    background-image: url(../img/button/lvbutton.png);
-    background-size: 100% 100%;
-    color:#fff;
-    border-radius: 8px;
+    background-image: url(../img/button/greenbutton.png);
+  }
+  .btn-hongse>button{
+    background-image: url(../img/button/zibutton.png);
+  }
+  .btn-hunse>button{
+    background-image: url(../img/button/hunse.png);
+  }
+  .btn-lanse>button:hover{
+    background-image: url(../img/button/blueactive.png);
+  }
+  .btn-lvse>button:hover{
+    background-image: url(../img/button/greenactive.png);
+  }
+  .btn-hongse>button:hover{
+    background-image: url(../img/button/ziactive.png);
+  }
+  .btn-hunse>button:hover{
+    background-image: url(../img/button/hunseactive.png);
   }

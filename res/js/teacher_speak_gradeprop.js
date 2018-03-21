@@ -14,4 +14,16 @@ $(() => {
         html2 += li;
     })
     $('.selectCj2 ul').html(html2);
+    $('[data-prop=kaosi]').on('click',function(){
+        let html=$(this).html();
+        console.log(html);
+        $('#testStart').show();
+    })
+    $('[data-prop=reset]').on('click',function(){
+        $('#testStart').show();
+    })
+    $('[data-start=quxiao').on('click',function(){
+        $('#testStart').hide();
+    })
+   
 })
